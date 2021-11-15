@@ -6,28 +6,28 @@ import { SortableContainer, SortableElement } from "react-sortable-hoc";
 const photos = [
   {
     src: "/images/teambuilding/teambuilding1.webp",
-    width: 5,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: "/images/teambuilding/teambuilding2.webp",
-    width: 3,
-    height: 2
+    width: 4,
+    height: 3
   },
   {
     src: "/images/teambuilding/teambuilding3.webp",
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: "/images/teambuilding/teambuilding4.webp",
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: "/images/teambuilding/teambuilding5.webp",
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: "/images/teambuilding/teambuilding6.webp",
@@ -36,8 +36,8 @@ const photos = [
   },
   {
     src: "/images/teambuilding/teambuilding7.webp",
-    width: 3,
-    height: 4
+    width: 4,
+    height: 3
   },
   {
     src: "/images/teambuilding/teambuilding8.webp",

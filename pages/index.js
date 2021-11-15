@@ -26,12 +26,11 @@ export default function Home() {
           crossOrigin="anonymous"
         ></link>
       </Head>
+     
       <Navbar />
       <Banner />
       <AboutUsHome />
-
       <Splitter />
-
       <Activities />
       <hr />
       <hr />

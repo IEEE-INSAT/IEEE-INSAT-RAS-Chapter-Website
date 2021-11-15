@@ -6,7 +6,7 @@
 .pnp.js
 
 
-/public/videos/
+
 
 
 # testing
@@ -34,5 +34,3 @@ yarn-error.log*
 .env.production.local
 
 
-
-*.mp4
