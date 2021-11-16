@@ -123,9 +123,9 @@ export default function Navbar() {
                   router.pathname == "/shop" ? "nav-item active" : "nav-item"
                 }
               >
-                <Link href="/shop">
-                  <a className="nav-link">Shop</a>
-                </Link>
+                <a href="/shop" className="nav-link">
+                  Shop
+                </a>
               </li>
             </ul>
           </div>

@@ -15,10 +15,10 @@ export default function AboutUs() {
               </p>
               <p>
                 <a
-                  href="#"
+                  href="https://www.ieee.org/"
                   class="btn btn-primary btn-outline-primary px-4 py-3"
                 >
-                  View Full Menu
+                  View IEEE
                 </a>
               </p>
             </div>
@@ -42,10 +42,10 @@ export default function AboutUs() {
               </p>
               <p>
                 <a
-                  href="#"
+                  href="https://www.ieee-ras.org/"
                   class="btn btn-primary btn-outline-primary px-4 py-3"
                 >
-                  View Full Menu
+                  View RAS
                 </a>
               </p>
             </div>

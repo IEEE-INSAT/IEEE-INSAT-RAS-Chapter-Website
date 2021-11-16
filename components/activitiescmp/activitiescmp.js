@@ -28,6 +28,12 @@ export default function ActivitiesCmp() {
           <h2 className="mb-1 ">Our Activities </h2>
         </div>
       </div>
+      {activitieslist.length<1 &&(<div  style={{
+            marginTop: "50px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}><img src="images/DualRing.svg" ></img></div>)}
       { activitieslist.length>=1 &&(<VerticalTimeline>
         {activitieslist.map(activity => {     
            return(<VerticalTimelineElement

@@ -8,82 +8,27 @@ export default function Footer() {
           <div className="row mb-5">
             <div className="col-lg-3 col-md-6 mb-5 mb-md-5">
               <div className="ftco-footer-widget mb-4">
-                <h2 className="ftco-heading-2">About Us</h2>
+                <h2 className="ftco-heading-2">IEEE RAS</h2>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
+                  when we talk about RAS we'll be talking about: Success,
+                  hardwork, dedication, awards, passion, sacrifice, teamwork and
+                  endless love.
                 </p>
-                <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-twitter"></span>
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-facebook"></span>
-                    </a>
-                  </li>
-                  <li className="ftco-animate">
-                    <a href="#">
-                      <span className="icon-instagram"></span>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 mb-5 mb-md-5">
               <div className="ftco-footer-widget mb-4">
-                <h2 className="ftco-heading-2">Recent Blog</h2>
+                <h2 className="ftco-heading-2">copyrights</h2>
                 <div className="block-21 mb-4 d-flex">
                   <a className="blog-img mr-4"></a>
                   <div className="text">
                     <h3 className="heading">
-                      <a href="#">
-                        Even the all-powerful Pointing has no control about
-                      </a>
+                      <a href="#">© 2020,IEEE RAS INSAT. All Rights Reserved</a>
                     </h3>
                     <div className="meta">
                       <div>
                         <a href="#">
-                          <span className="icon-calendar"></span> Sept 15, 2018
-                        </a>
-                      </div>
-                      <div>
-                        <a href="#">
-                          <span className="icon-person"></span> Admin
-                        </a>
-                      </div>
-                      <div>
-                        <a href="#">
-                          <span className="icon-chat"></span> 19
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="block-21 mb-4 d-flex">
-                  <a className="blog-img mr-4"></a>
-                  <div className="text">
-                    <h3 className="heading">
-                      <a href="#">
-                        Even the all-powerful Pointing has no control about
-                      </a>
-                    </h3>
-                    <div className="meta">
-                      <div>
-                        <a href="#">
-                          <span className="icon-calendar"></span> Sept 15, 2018
-                        </a>
-                      </div>
-                      <div>
-                        <a href="#">
-                          <span className="icon-person"></span> Admin
-                        </a>
-                      </div>
-                      <div>
-                        <a href="#">
-                          <span className="icon-chat"></span> 19
+                          <span className="icon-calendar"></span> 2021/2022
                         </a>
                       </div>
                     </div>
@@ -91,33 +36,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 mb-5 mb-md-5">
-              <div className="ftco-footer-widget mb-4 ml-md-4">
-                <h2 className="ftco-heading-2">Services</h2>
-                <ul className="list-unstyled">
-                  <li>
-                    <a href="#" className="py-2 d-block">
-                      Cooked
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="py-2 d-block">
-                      Deliver
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="py-2 d-block">
-                      Quality Foods
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="py-2 d-block">
-                      Mixed
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+
             <div className="col-lg-3 col-md-6 mb-5 mb-md-5">
               <div className="ftco-footer-widget mb-4">
                 <h2 className="ftco-heading-2">Have a Questions?</h2>
@@ -126,20 +45,19 @@ export default function Footer() {
                     <li>
                       <span className="icon icon-map-marker"></span>
                       <span className="text">
-                        203 Fake St. Mountain View, San Francisco, California,
-                        USA
+                        676 INSAT Centre Urbain Nord BP، Tunis Cedex 1080
                       </span>
                     </li>
                     <li>
                       <a href="#">
                         <span className="icon icon-phone"></span>
-                        <span className="text">+2 392 3929 210</span>
+                        <span className="text">58 945 105</span>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <span className="icon icon-envelope"></span>
-                        <span className="text">info@yourdomain.com</span>
+                        <span className="text">https://ras-insat.ieee.tn/</span>
                       </a>
                     </li>
                   </ul>

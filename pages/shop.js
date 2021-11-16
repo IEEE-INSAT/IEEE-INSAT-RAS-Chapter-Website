@@ -6,10 +6,15 @@ import "react-medium-image-zoom/dist/styles.css";
 export default function shop() {
   const [cards, setCards] = useState([
     {
-      name: "Polo Rouge",
-      price: 30,
-      imgURL: "polo-red.webp",
+      name: "Hoodie Red",
+      price: 40,
+      imgURL: "images/shop/hoodie-rouge.jpg",
     },
+    {
+      name: "Polo grey",
+      price: 40,
+      imgURL: "images/shop/hoodie-grey.jpg",
+    }
   ]);
   return (
     <div>
@@ -20,67 +25,96 @@ export default function shop() {
             <h2 className="mb-1 ">Our Store </h2>
           </div>
         </div>
-        <div  style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}>
-        {cards.map((c, i) => (
-          <div className="card" key={i} style={{backgroundColor:"transparent" ,borderColor:"#c49b63",padding:"8px"}}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {cards.map((c, i) => (
             <div
-              className="image special-hover"
+              className="card"
+              key={i}
               style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
+                backgroundColor: "transparent",
+                borderColor: "#c49b63",
+                padding: "8px",
+                margin:"12px"
               }}
             >
-              <Zoom>
-                <img
-                  src="images/shop/polo-red.webp"
-                  width="300px"
-                  height="300px"
-                  alt=""
-                />
-              </Zoom>
-            </div>
-            <div >
-            <div className="content">
-              <span className="header" style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}>{c.name}</span>
-            
-            </div>
-            <div className="extra" style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}>
-              <div className="price">{c.price}DT</div>
-              </div>
-              <div style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}>
-              <button
-                id="shopModalButton"
-                className="btn btn-primary btn-outline-primary"
-                data-toggle="modal"
-                data-target="#shopModal"
-                data-price={c.price}
-                data-name={c.name}
-               
+              <div
+                className="image special-hover"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
-                Buy
-              </button>
+                <Zoom>
+                  <img
+                    src={c.imgURL}
+                    width="500px"
+                    height="400px"
+                    alt=""
+                  />
+                </Zoom>
               </div>
+              <div>
+                <div className="content">
+                  <span
+                    className="header"
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    {c.name}
+                  </span>
+                </div>
+                <div
+                  className="extra"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <div className="price">{c.price}DT</div>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <button
+                    data-tf-popup="IXqgieqQ"
+                    id="shopModalButton"
+                    className="btn btn-primary btn-outline-primary"
+                    data-toggle="modal"
+                    data-target="#shopModal"
+                    data-price={c.price}
+                    data-name={c.name}
+                  >
+                    Buy
+                  </button>
+                </div>
               </div>
             </div>
-          
-        ))}
+          ))}
+        </div>
+        <div
+          style={{
+            marginTop: "50px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <script  strategy="beforeInteractive" src="//embed.typeform.com/next/embed.js"></script>
         </div>
       </section>
       <Footer />
