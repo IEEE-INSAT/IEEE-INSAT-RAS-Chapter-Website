@@ -11593,6 +11593,16 @@ textarea.form-control {
   width: 100%;
   height: 270px;
 }
+.block-25 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 600px;
+}
 
 .blog-entry {
   overflow: hidden;
@@ -11856,24 +11866,24 @@ textarea.form-control {
   opacity: 0.5;
 }
 .amin{
-  background-image: url('/images/team/amin.jpg');
+  background-image: url('/images/team/amin.png');
 }.ahmed{
-  background-image: url('/images/team/ahmed.jpg');
+  background-image: url('/images/team/ahmed.png');
 }.donia{
-  background-image: url('/images/team/donia.jpg');
+  background-image: url('/images/team/donia.png');
 }.emna{
-  background-image: url('/images/team/emna.jpg');
+  background-image: url('/images/team/emna.png');
 }.mariem{
-  background-image: url('/images/team/mariem.jpg');
+  background-image: url('/images/team/mariem.png');
 }.meryem{
-  background-image: url('/images/team/meryem.jpg');
+  background-image: url('/images/team/meryem.png');
 }.rimbesbes{
-  background-image: url('/images/team/rimbesbes3.png');
+  background-image: url('/images/team/rimbesbes.png');
   
 }.rimchihi{
-  background-image: url('/images/team/rimchihi.jpg');
+  background-image: url('/images/team/rimchihi.png');
 }.taher{
-  background-image: url('/images/team/taher.jpg');
+  background-image: url('/images/team/taher.png');
 }
 .team-bg{
   background: url(/images/aboutus/teambg.jpg) no-repeat fixed;

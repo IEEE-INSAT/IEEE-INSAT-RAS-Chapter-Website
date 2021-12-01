@@ -8,7 +8,7 @@ export default function Team() {
         <div class="row ">
           <div class="col-md-4  ">
           	<div class="blog-entry ahvr-square ahvr-boxed-image ahvr-animated animated-box animated-bounce ">
-              <a href="#" class="block-20 taher"  >
+              <a href="#" class="block-25 taher"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -22,7 +22,7 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 emna"  >
+              <a href="#" class="block-25 emna"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -36,7 +36,7 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 ahmed"  >
+              <a href="#" class="block-25 ahmed"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -52,7 +52,7 @@ export default function Team() {
         <div class="row ">
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 donia"  >
+              <a href="#" class="block-25 donia"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -66,7 +66,7 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 rimbesbes"  >
+              <a href="#" class="block-25 rimbesbes"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -80,7 +80,7 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 rimchihi"  >
+              <a href="#" class="block-25 rimchihi"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -96,7 +96,7 @@ export default function Team() {
         <div class="row ">
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 meryem"  >
+              <a href="#" class="block-25 meryem"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -110,7 +110,7 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 amin"  >
+              <a href="#" class="block-25 amin"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
@@ -124,7 +124,7 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="#" class="block-20 mariem"  >
+              <a href="#" class="block-25 mariem"  >
               </a>
               <div class="text py-4 d-block">
               	<div class="meta">
