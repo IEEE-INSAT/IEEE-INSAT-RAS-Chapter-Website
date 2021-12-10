@@ -11121,7 +11121,7 @@ textarea.form-control {
   position: relative;
 }
 .ftco-section-about-us {
-  padding-top: 7em ;
+  padding-top: 7em;
   position: relative;
 }
 @media (max-width: 767.98px) {
@@ -11595,15 +11595,17 @@ textarea.form-control {
 }
 .block-25 {
   overflow: hidden;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
   display: block;
   width: 100%;
-  height: 600px;
+  height: 450px;
 }
-
+.triangle-block {
+  background-image: url("/images/team/triangle.png");
+}
 .blog-entry {
   overflow: hidden;
 }
@@ -11865,27 +11867,64 @@ textarea.form-control {
   margin: 0 10px;
   opacity: 0.5;
 }
-.amin{
-  background-image: url('/images/team/amin.png');
-}.ahmed{
-  background-image: url('/images/team/ahmed.png');
-}.donia{
-  background-image: url('/images/team/donia.png');
-}.emna{
-  background-image: url('/images/team/emna.png');
-}.mariem{
-  background-image: url('/images/team/mariem.png');
-}.meryem{
-  background-image: url('/images/team/meryem.png');
-}.rimbesbes{
-  background-image: url('/images/team/rimbesbes.png');
-  
-}.rimchihi{
-  background-image: url('/images/team/rimchihi.png');
-}.taher{
-  background-image: url('/images/team/taher.png');
+.amin {
+  background-image: url("/images/team/amin.png");
+  background-size: contain;
 }
-.team-bg{
+.amin:hover {
+  background-color: #99f082;
+}
+
+.ahmed {
+  background-image: url("/images/team/ahmed.png");
+}
+.ahmed:hover {
+  background-color: #7f1734;
+}
+.donia {
+  background-image: url("/images/team/donia.png");
+}
+.donia:hover {
+  background-color: #e4e980;
+}
+.emna {
+  background-image: url("/images/team/emna.png");
+}
+.emna:hover {
+  background-color: #de8a63;
+}
+.mariem {
+  background-image: url("/images/team/mariem.png");
+}
+.mariem:hover {
+  background-color: #37e8fc;
+}
+.meryem {
+  background-image: url("/images/team/meryem.png");
+}
+.meryem:hover {
+  background-color: #e02b20;
+}
+.rimbesbes {
+  background-image: url("/images/team/rimbesbes.png");
+}
+.rimbesbes:hover {
+  background-color: #5a54dc;
+}
+.rimchihi {
+  background-image: url("/images/team/rimchihi.png");
+}
+.rimchihi:hover {
+  background-color: #f9fbe3;
+}
+.taher {
+  background-image: url("/images/team/taher.png");
+}
+.taher:hover {
+  background-color: #9502e5;
+}
+
+.team-bg {
   background: url(/images/aboutus/teambg.jpg) no-repeat fixed;
 }
 .tagcloud a {
