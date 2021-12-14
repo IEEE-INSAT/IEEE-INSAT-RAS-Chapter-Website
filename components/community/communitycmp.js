@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Gallery from "react-photo-gallery";
-import Photo from "./Photo";
+import Photo from "./photo";
 import { arrayMove } from "react-sortable-hoc";
 import { SortableContainer, SortableElement } from "react-sortable-hoc";
 const photos = [
