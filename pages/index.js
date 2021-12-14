@@ -1,12 +1,11 @@
 import Head from "next/head";
 import AboutUsHome from "../components/aboutushome/aboutushome";
-import Activities from "../components/activities/activities";
 import Banner from "../components/banner/banner";
 import Contactus from "../components/contactus/contactus";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
 import Splitter from "../components/splitter/splitter";
-
+import Safe from "react-safe"
 export default function Home() {
   return (
     <div>
@@ -26,13 +25,11 @@ export default function Home() {
           crossOrigin="anonymous"
         ></link>
       </Head>
+
       <Navbar />
       <Banner />
       <AboutUsHome />
-
       <Splitter />
-
-      <Activities />
       <hr />
       <hr />
       <Contactus />
@@ -53,6 +50,8 @@ export default function Home() {
       <script src="/js/jquery.timepicker.min.js"></script>
       <script src="/js/scrollax.min.js"></script>
       <script src="/js/main.js"></script>
+      <script src="//embed.typeform.com/next/embed.js"></script>
+      
     </div>
   );
 }

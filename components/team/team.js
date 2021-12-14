@@ -1,17 +1,21 @@
-import styles from "../team/team.module.css";
+
 
 export default function Team() {
+ 
   return (
     <section class="ftco-section">
       <div class="container">
        
         <div class="row ">
           <div class="col-md-4  ">
-          	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 taher"  >
-              </a>
+          	<div class="blog-entry ahvr-square ahvr-boxed-image ahvr-animated animated-box animated-bounce ">
+
+              <div href="#" class="block-25 taher triangle-block"  >
+              </div>
+          
               <div class="text py-4 d-block">
               	<div class="meta">
+               
                 <h3 class="heading mt-2"><a href="#">Mohamed Taher Bazzazi</a></h3>
                 <div><a href="#">CHAIRMAN</a></div>
                 </div>
@@ -22,8 +26,8 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 emna"  >
-              </a>
+              <div href="#" class="block-25 emna"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Emna Ben Othmen </a></h3>
@@ -36,8 +40,8 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 ahmed"  >
-              </a>
+              <div href="#" class="block-25 ahmed"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Ahmed Barnat</a></h3>
@@ -52,8 +56,8 @@ export default function Team() {
         <div class="row ">
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 donia"  >
-              </a>
+              <div href="#" class="block-25 donia"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Donia Hamada</a></h3>
@@ -66,8 +70,8 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 rimbesbes"  >
-              </a>
+              <div href="#" class="block-25 rimbesbes"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Rim Besbes</a></h3>
@@ -80,8 +84,8 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 rimchihi"  >
-              </a>
+              <div href="#" class="block-25 rimchihi"  >  
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Rim Chihi </a></h3>
@@ -96,8 +100,8 @@ export default function Team() {
         <div class="row ">
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 meryem"  >
-              </a>
+              <div href="#" class="block-25 meryem"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Meryem Soltani</a></h3>
@@ -110,8 +114,8 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 amin"  >
-              </a>
+              <div href="#" class="block-25 amin"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Mohamed Amine Felah</a></h3>
@@ -124,8 +128,8 @@ export default function Team() {
           </div>
           <div class="col-md-4  ">
           	<div class="blog-entry ">
-              <a href="blog-single.html" class="block-20 mariem"  >
-              </a>
+              <div href="#" class="block-25 mariem"  >
+              </div>
               <div class="text py-4 d-block">
               	<div class="meta">
                 <h3 class="heading mt-2"><a href="#">Meriem Amara </a></h3>

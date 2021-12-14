@@ -22,7 +22,7 @@ export default function Navbar() {
         className={
           Shadow
             ? "navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light scrolled awake"
-            : "navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+            : "navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light "
         }
         id="ftco-navbar"
       >
@@ -33,7 +33,7 @@ export default function Navbar() {
               src="/images/RAS-logo-white.png"
               alt="Ras Insat"
               width={120}
-              height={50}
+              height={70}
             />
           </a>
           <button
@@ -92,7 +92,7 @@ export default function Navbar() {
                     : "nav-item"
                 }
               >
-                <Link href="/activites">
+                <Link href="/activities">
                   <a className="nav-link">Activities</a>
                 </Link>
               </li>
@@ -123,9 +123,9 @@ export default function Navbar() {
                   router.pathname == "/shop" ? "nav-item active" : "nav-item"
                 }
               >
-                <Link href="/shop">
-                  <a className="nav-link">Shop</a>
-                </Link>
+                <a href="/shop" className="nav-link">
+                  Shop
+                </a>
               </li>
             </ul>
           </div>

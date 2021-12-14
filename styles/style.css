@@ -44,6 +44,13 @@
   font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: "formatta";
+  src: url("/fonts/Formata-Regular.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 *,
 *::before,
@@ -9937,7 +9944,7 @@ h5,
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
-  font-family: "neon machine", cursive;
+  font-family: "formatta", cursive;
   font-size: 30px;
   color: #c49b63;
 }
@@ -10209,7 +10216,7 @@ h5,
 }
 .subabout {
   margin-left: 80px;
-  font-family: "neon machine", cursive;
+  font-family: "formatta", cursive;
 }
 .nrwmargin {
   margin-right: 15rem;
@@ -11114,7 +11121,7 @@ textarea.form-control {
   position: relative;
 }
 .ftco-section-about-us {
-  padding-top: 7em ;
+  padding-top: 7em;
   position: relative;
 }
 @media (max-width: 767.98px) {
@@ -11266,7 +11273,7 @@ textarea.form-control {
   font-size: 50px;
   display: block;
   margin-bottom: 0;
-  font-family: "neon machine", cursive;
+  font-family: "formatta", cursive;
   color: #c49b63;
   line-height: 1;
   margin-bottom: -21px;
@@ -11586,7 +11593,19 @@ textarea.form-control {
   width: 100%;
   height: 270px;
 }
-
+.block-25 {
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 450px;
+}
+.triangle-block {
+  background-image: url("/images/team/triangle.png");
+}
 .blog-entry {
   overflow: hidden;
 }
@@ -11848,27 +11867,64 @@ textarea.form-control {
   margin: 0 10px;
   opacity: 0.5;
 }
-.amin{
-  background-image: url('/images/team/amin.jpg');
-}.ahmed{
-  background-image: url('/images/team/ahmed.jpg');
-}.donia{
-  background-image: url('/images/team/donia.jpg');
-}.emna{
-  background-image: url('/images/team/emna.jpg');
-}.mariem{
-  background-image: url('/images/team/mariem.jpg');
-}.meryem{
-  background-image: url('/images/team/meryem.jpg');
-}.rimbesbes{
-  background-image: url('/images/team/rimbesbes3.png');
-  
-}.rimchihi{
-  background-image: url('/images/team/rimchihi.jpg');
-}.taher{
-  background-image: url('/images/team/taher.jpg');
+.amin {
+  background-image: url("/images/team/amin.png");
+  background-size: contain;
 }
-.team-bg{
+.amin:hover {
+  background-color: #99f082;
+}
+
+.ahmed {
+  background-image: url("/images/team/ahmed.png");
+}
+.ahmed:hover {
+  background-color: #7f1734;
+}
+.donia {
+  background-image: url("/images/team/donia.png");
+}
+.donia:hover {
+  background-color: #e4e980;
+}
+.emna {
+  background-image: url("/images/team/emna.png");
+}
+.emna:hover {
+  background-color: #de8a63;
+}
+.mariem {
+  background-image: url("/images/team/mariem.png");
+}
+.mariem:hover {
+  background-color: #37e8fc;
+}
+.meryem {
+  background-image: url("/images/team/meryem.png");
+}
+.meryem:hover {
+  background-color: #e02b20;
+}
+.rimbesbes {
+  background-image: url("/images/team/rimbesbes.png");
+}
+.rimbesbes:hover {
+  background-color: #5a54dc;
+}
+.rimchihi {
+  background-image: url("/images/team/rimchihi.png");
+}
+.rimchihi:hover {
+  background-color: #f9fbe3;
+}
+.taher {
+  background-image: url("/images/team/taher.png");
+}
+.taher:hover {
+  background-color: #9502e5;
+}
+
+.team-bg {
   background: url(/images/aboutus/teambg.jpg) no-repeat fixed;
 }
 .tagcloud a {
