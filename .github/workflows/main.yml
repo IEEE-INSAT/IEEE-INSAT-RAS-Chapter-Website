@@ -19,16 +19,17 @@ jobs:
         with:
           node-version: '16.13.1'
 
-      - name: 🔨 Build Project
-        run: |
-          npm install
-          npm run build
-          
-      - name: 📂 deploy in ftp server
+       - name: Create env file
+            run: |
+              touch .env
+              echo NEXT_PUBLIC_ACCESS_TOKEN = ${{secrets.accessToken}} >> .env
+              echo NEXT_PUBLIC_GRAPH_URL = ${{secrets.graphURL}} >> .env
+              echo "!.env" > .git-ftp-include # Add git untracked file
+
+      - name: 📂 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
           server: ftp.smart-sfax.org
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          local-dir: ./build/
-          server-dir: /ias-insat.ieee.tn/
+          server-dir: /ras-insat.ieee.tn/
