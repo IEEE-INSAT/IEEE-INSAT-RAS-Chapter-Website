@@ -21,10 +21,10 @@ jobs:
 
       - name: Create env file
         run: |
-        touch .env
-        echo NEXT_PUBLIC_ACCESS_TOKEN = ${{secrets.accessToken}} >> .env
-        echo NEXT_PUBLIC_GRAPH_URL = ${{secrets.graphURL}} >> .env
-        echo "!.env" > .git-ftp-include # Add git untracked file
+          touch .env
+          echo NEXT_PUBLIC_ACCESS_TOKEN = ${{secrets.accessToken}} >> .env
+          echo NEXT_PUBLIC_GRAPH_URL = ${{secrets.graphURL}} >> .env
+          echo "!.env" > .git-ftp-include # Add git untracked file
 
       - name: 📂 Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
