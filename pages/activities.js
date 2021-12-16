@@ -9,6 +9,9 @@ export default function Activities() {
     <div>
       <Navbar />
       <div id="activities">
+        <Head>
+          <title>Activities</title>
+        </Head>
         <ActivitiesCmp />
       </div>
       <Footer />

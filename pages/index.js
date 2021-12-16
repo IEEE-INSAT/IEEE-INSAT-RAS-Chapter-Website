@@ -5,12 +5,12 @@ import Contactus from "../components/contactus/contactus";
 import Footer from "../components/footer/footer";
 import Navbar from "../components/navbar/navbar";
 import Splitter from "../components/splitter/splitter";
-import Safe from "react-safe"
+import Safe from "react-safe";
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next Amin app</title>
+        <title>IEEE RAS INSAT</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
@@ -51,7 +51,6 @@ export default function Home() {
       <script src="/js/scrollax.min.js"></script>
       <script src="/js/main.js"></script>
       <script src="//embed.typeform.com/next/embed.js"></script>
-      
     </div>
   );
 }

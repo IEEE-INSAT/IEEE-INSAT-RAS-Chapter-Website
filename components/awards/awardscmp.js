@@ -48,17 +48,17 @@ export default function Awardscmp() {
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award3.png" height="450" width="500"  />
+              <Image src="/images/awards/award3.png" height="450" width="500" />
               <div className="row justify-content-center">
                 <div className="col-md-7 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
-                   2018 outstanding Student Branch Chapter Award
+                    2018 outstanding Student Branch Chapter Award
                   </h2>
                 </div>
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award4.png" height="450" width="500"  />
+              <Image src="/images/awards/award4.png" height="450" width="500" />
               <div className="row justify-content-center">
                 <div className="col-md-7 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
@@ -68,7 +68,7 @@ export default function Awardscmp() {
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award5.png" height="450" width="500"  />
+              <Image src="/images/awards/award5.png" height="450" width="500" />
               <div className="row justify-content-center">
                 <div className="col-md-7 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">

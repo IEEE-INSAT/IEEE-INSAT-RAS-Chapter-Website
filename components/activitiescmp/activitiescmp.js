@@ -5,17 +5,16 @@ import { FaRobot } from "react-icons/fa";
 import axios from "axios";
 import {
   VerticalTimeline,
-  VerticalTimelineElement,
+  VerticalTimelineElement
 } from "react-vertical-timeline-component";
 
 export default function ActivitiesCmp() {
   const [activitieslist, setActitieslist] = useState([]);
   const accessToken = process.env.NEXT_PUBLIC_ACCESS_TOKEN;
-  
+
   useEffect(() => {
     axios.get(process.env.NEXT_PUBLIC_GRAPH_URL).then(function (response) {
       setActitieslist(response.data.data);
-      console.log(process.env.NEXT_PUBLIC_GRAPH_URL);
     });
   }, []);
 
@@ -32,7 +31,7 @@ export default function ActivitiesCmp() {
             marginTop: "50px",
             display: "flex",
             justifyContent: "center",
-            alignItems: "center",
+            alignItems: "center"
           }}
         >
           <img src="images/DualRing.svg"></img>

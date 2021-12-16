@@ -13,7 +13,7 @@ export default function Contactus() {
         name: name,
         subject: subject,
         email: email,
-        message: message,
+        message: message
       };
 
       await emailjs.send(

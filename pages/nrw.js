@@ -9,7 +9,7 @@ export default function Nrw() {
       <Navbar />
       <div id="nrw">
         <Head>
-          <title>Create Next Amin app</title>
+          <title>National Robotics Weekend</title>
           <link rel="icon" href="/favicon.ico" />
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"

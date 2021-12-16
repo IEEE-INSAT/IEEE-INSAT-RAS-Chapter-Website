@@ -11,7 +11,7 @@ export default function About() {
       <Navbar />
       <div id="about us">
         <Head>
-          <title>Create Next Amin app</title>
+          <title>About IEEE RAS INSAT</title>
           <link rel="icon" href="/favicon.ico" />
           <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -34,16 +34,16 @@ export default function About() {
               </div>
             </div>
           </div>
-          <AboutUs/>
+          <AboutUs />
           <div className="team-bg">
-          <div className="container mt-5">
-            <div className="row justify-content-center mt-5">
-              <div className="col-md-7 mt-5 heading-section text-center">
-                <h2 className="">Our Team </h2>
+            <div className="container mt-5">
+              <div className="row justify-content-center mt-5">
+                <div className="col-md-7 mt-5 heading-section text-center">
+                  <h2 className="">Our Team </h2>
+                </div>
               </div>
             </div>
-          </div>
-          <Team/> 
+            <Team />
           </div>
         </section>
 

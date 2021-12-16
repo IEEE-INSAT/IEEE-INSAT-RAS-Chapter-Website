@@ -10,7 +10,7 @@ const Photo = ({ index, onClick, photo, margin, direction, top, left }) => {
     imgStyle.top = top;
   }
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     onClick(event, { photo, index });
   };
 

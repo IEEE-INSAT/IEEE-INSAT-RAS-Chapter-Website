@@ -12,7 +12,7 @@ export default function Banner() {
           <h2>IEEE RAS </h2>
           <h3>INSAT</h3>
           <Link href="/about">
-            <a >Explore</a>
+            <a>Explore</a>
           </Link>
         </div>
       </section>

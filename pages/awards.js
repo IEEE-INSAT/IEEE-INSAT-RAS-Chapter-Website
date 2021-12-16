@@ -9,6 +9,9 @@ export default function Awards() {
     <div>
       <Navbar />
       <div id="awards">
+        <Head>
+          <title>Awards</title>
+        </Head>
         <Awardscmp />
       </div>
       <Footer />

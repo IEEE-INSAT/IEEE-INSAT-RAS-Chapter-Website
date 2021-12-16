@@ -49,13 +49,13 @@ const photos = [
     width: 4,
     height: 3
   },
-  
+
   {
     src: "/images/teambuilding/teambuilding11.webp",
     width: 4,
     height: 3
   },
-  
+
   {
     src: "/images/teambuilding/teambuilding13.webp",
     width: 4,
@@ -97,9 +97,12 @@ const photos = [
     height: 3
   }
 ];
-const SortablePhoto = SortableElement(item => <Photo {...item} />);
+const SortablePhoto = SortableElement((item) => <Photo {...item} />);
 const SortableGallery = SortableContainer(({ items }) => (
-  <Gallery photos={items} renderImage={props => <SortablePhoto {...props} />} />
+  <Gallery
+    photos={items}
+    renderImage={(props) => <SortablePhoto {...props} />}
+  />
 ));
 export default function Communitycmp() {
   const [items, setItems] = useState(photos);
@@ -107,16 +110,15 @@ export default function Communitycmp() {
     setItems(arrayMove(items, oldIndex, newIndex));
   };
 
-  
   return (
     <section className="ftco-section mt-5 pt-5">
-         <div className="row justify-content-center mb-1 pb-3 mt-5 pt-5">
-          <div className="col-md-7 heading-section  text-center ">
-            <h2 className="mb-1 ">Our TeamBuilding</h2>
-          </div>
+      <div className="row justify-content-center mb-1 pb-3 mt-5 pt-5">
+        <div className="col-md-7 heading-section  text-center ">
+          <h2 className="mb-1 ">Our TeamBuilding</h2>
         </div>
+      </div>
       <div className="row justify-content-center">
-      <SortableGallery items={items} onSortEnd={onSortEnd} axis={"xy"} />
+        <SortableGallery items={items} onSortEnd={onSortEnd} axis={"xy"} />
       </div>
     </section>
   );

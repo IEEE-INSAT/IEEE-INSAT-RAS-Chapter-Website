@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import Communitycmp from "../components/community/communitycmp";
@@ -7,6 +8,9 @@ export default function Community() {
     <div>
       <Navbar />
       <div id="awards">
+        <Head>
+          <title>Community</title>
+        </Head>
         <Communitycmp />
       </div>
       <Footer />

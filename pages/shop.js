@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Navbar from "../components/navbar/navbar";
 import { useState } from "react";
 import Footer from "../components/footer/footer";
@@ -8,16 +9,19 @@ export default function shop() {
     {
       name: "Hoodie Red",
       price: 40,
-      imgURL: "images/shop/hoodie-rouge.jpg",
+      imgURL: "images/shop/hoodie-rouge.jpg"
     },
     {
       name: "Polo grey",
       price: 40,
-      imgURL: "images/shop/hoodie-grey.jpg",
+      imgURL: "images/shop/hoodie-grey.jpg"
     }
   ]);
   return (
     <div>
+      <Head>
+        <title>Shop</title>
+      </Head>
       <Navbar />
       <section className="ftco-section mt-5 pt-5">
         <div className="row justify-content-center mb-1 pb-3 mt-5 pt-5">
@@ -29,7 +33,7 @@ export default function shop() {
           style={{
             display: "flex",
             justifyContent: "center",
-            alignItems: "center",
+            alignItems: "center"
           }}
         >
           {cards.map((c, i) => (
@@ -40,7 +44,7 @@ export default function shop() {
                 backgroundColor: "transparent",
                 borderColor: "#c49b63",
                 padding: "8px",
-                margin:"12px"
+                margin: "12px"
               }}
             >
               <div
@@ -48,16 +52,11 @@ export default function shop() {
                 style={{
                   display: "flex",
                   justifyContent: "center",
-                  alignItems: "center",
+                  alignItems: "center"
                 }}
               >
                 <Zoom>
-                  <img
-                    src={c.imgURL}
-                    width="500px"
-                    height="400px"
-                    alt=""
-                  />
+                  <img src={c.imgURL} width="500px" height="400px" alt="" />
                 </Zoom>
               </div>
               <div>
@@ -67,7 +66,7 @@ export default function shop() {
                     style={{
                       display: "flex",
                       justifyContent: "center",
-                      alignItems: "center",
+                      alignItems: "center"
                     }}
                   >
                     {c.name}
@@ -78,7 +77,7 @@ export default function shop() {
                   style={{
                     display: "flex",
                     justifyContent: "center",
-                    alignItems: "center",
+                    alignItems: "center"
                   }}
                 >
                   <div className="price">{c.price}DT</div>
@@ -87,7 +86,7 @@ export default function shop() {
                   style={{
                     display: "flex",
                     justifyContent: "center",
-                    alignItems: "center",
+                    alignItems: "center"
                   }}
                 >
                   <button
@@ -111,10 +110,13 @@ export default function shop() {
             marginTop: "50px",
             display: "flex",
             justifyContent: "center",
-            alignItems: "center",
+            alignItems: "center"
           }}
         >
-          <script  strategy="beforeInteractive" src="//embed.typeform.com/next/embed.js"></script>
+          <script
+            strategy="beforeInteractive"
+            src="//embed.typeform.com/next/embed.js"
+          ></script>
         </div>
       </section>
       <Footer />
