@@ -1,17 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  output: "export", // Export static HTML
   images: {
-    domains: ['cdn.sanity.io'],
+    unoptimized: true, // Disable Next.js image optimization
+    domains: ["cdn.sanity.io"], // Keep your current domains
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'cdn.sanity.io',
-        port: '',
-        pathname: '/images/**',
-      },
-    ],
-  },
+        protocol: "https",
+        hostname: "cdn.sanity.io",
+        port: "",
+        pathname: "/images/**"
+      }
+    ]
+  }
 };
 
 module.exports = nextConfig;
