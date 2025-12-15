@@ -11,7 +11,7 @@ export default function Awardscmp() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div>
+        <div className="col-md-6 col-lg-5">
           <Carousel
             autoFocus={true}
             autoPlay={true}
@@ -26,41 +26,102 @@ export default function Awardscmp() {
             swipeable={true}
           >
             <div>
-              <Image src="/images/awards/award1.png" height="450" width="500" />
-
+              <Image
+                src="/images/awards/award5.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
               <div className="row justify-content-center">
-                <div className="col-md-7 heading-section  text-center ">
+                <div className="col-md-12 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
-                    2017 best Ras Student Chapter Award
+                    2025 Tunisia RAS SBC Award of the Year
                   </h2>
                 </div>
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award2.png" height="450" width="500" />
+              <Image
+                src="/images/awards/award5.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
               <div className="row justify-content-center">
-                <div className="col-md-7 heading-section  text-center ">
+                <div className="col-md-12 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
-                    2018 runner up in Region 8 Educational Activites
-                    sub-committe(EASC)
+                    2024 Tunisia RAS SBC Award of the Year
                   </h2>
                 </div>
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award3.png" height="450" width="500" />
+              <Image
+                src="/images/awards/award5.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
               <div className="row justify-content-center">
-                <div className="col-md-7 heading-section  text-center ">
+                <div className="col-md-12 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
-                    2018 outstanding Student Branch Chapter Award
+                    2024 Silver Darrel Chong Award for NRW 5.0
                   </h2>
                 </div>
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award4.png" height="450" width="500" />
+              <Image
+                src="/images/awards/award5.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
               <div className="row justify-content-center">
-                <div className="col-md-7 heading-section  text-center ">
+                <div className="col-md-12 heading-section  text-center ">
+                  <h2 className="mb-1 ml-8  ">
+                    2023 Bronze Darrel Chong Award for NRW 4.0
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/images/awards/award5.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
+              <div className="row justify-content-center">
+                <div className="col-md-12 heading-section  text-center ">
+                  <h2 className="mb-1 ml-8  ">2022 TICAD Best Project Award</h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/images/awards/award5.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
+              <div className="row justify-content-center">
+                <div className="col-md-12 heading-section  text-center ">
+                  <h2 className="mb-1 ml-8  ">
+                    2020 Winner of Innovation Challenge 24h EniCarthage
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/images/awards/award4.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
+              <div className="row justify-content-center">
+                <div className="col-md-12 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
                     2019 Student Branch Chapter of the Year
                   </h2>
@@ -68,11 +129,47 @@ export default function Awardscmp() {
               </div>
             </div>
             <div>
-              <Image src="/images/awards/award5.png" height="450" width="500" />
+              <Image
+                src="/images/awards/award3.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
               <div className="row justify-content-center">
-                <div className="col-md-7 heading-section  text-center ">
+                <div className="col-md-12 heading-section  text-center ">
                   <h2 className="mb-1 ml-8  ">
-                    2020 winner of innovation challenge 24h enicarthage
+                    2018 Outstanding Student Branch Chapter Award
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/images/awards/award2.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
+              <div className="row justify-content-center">
+                <div className="col-md-12 heading-section  text-center ">
+                  <h2 className="mb-1 ml-8  ">
+                    2018 Runner Up in Region 8 Educational Activities
+                    Sub-Committee (EASC)
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/images/awards/award1.png"
+                height="450"
+                width="500"
+                objectFit="contain"
+              />
+              <div className="row justify-content-center">
+                <div className="col-md-12 heading-section  text-center ">
+                  <h2 className="mb-1 ml-8  ">
+                    2017 Best RAS Student Chapter Award
                   </h2>
                 </div>
               </div>

@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Navbar from "../components/navbar/navbar";
-
 import Footer from "../components/footer/footer";
-import ActivitiesCmp from "../components/activitiescmp/activitiescmp";
+import ActivitiesNew from "../components/activitiesnew/activitiesnew";
+import { client } from "../lib/sanity/client";
 
-export default function Activities() {
+export default function Activities({ activities }) {
   return (
     <div>
       <Navbar />
@@ -12,7 +12,7 @@ export default function Activities() {
         <Head>
           <title>Activities</title>
         </Head>
-        <ActivitiesCmp />
+        <ActivitiesNew activities={activities} />
       </div>
       <Footer />
       <script src="/js/jquery.min.js"></script>
@@ -33,4 +33,35 @@ export default function Activities() {
       <script src="//embed.typeform.com/next/embed.js"></script>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const query = `*[_type == "activity"] | order(date desc) {
+    _id,
+    title,
+    slug,
+    description,
+    details,
+    date,
+    image
+  }`;
+
+  try {
+    const activities = await client.fetch(query);
+    
+    return {
+      props: {
+        activities: activities || []
+      },
+      revalidate: 60 // Revalidate every 60 seconds
+    };
+  } catch (error) {
+    console.error("Error fetching activities:", error);
+    return {
+      props: {
+        activities: []
+      },
+      revalidate: 60
+    };
+  }
 }

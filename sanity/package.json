@@ -1,0 +1,23 @@
+{
+  "name": "sanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "env.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@sanity/image-url": "^2.0.2",
+    "@sanity/vision": "^4.21.1",
+    "react-is": "^19.2.3",
+    "sanity": "^4.21.1",
+    "styled-components": "^6.1.19"
+  }
+}

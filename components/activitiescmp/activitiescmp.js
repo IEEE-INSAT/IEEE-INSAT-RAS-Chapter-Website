@@ -10,12 +10,29 @@ import {
 
 export default function ActivitiesCmp() {
   const [activitieslist, setActitieslist] = useState([]);
+  const [error, setError] = useState(null);
   const accessToken = process.env.NEXT_PUBLIC_ACCESS_TOKEN;
 
   useEffect(() => {
-    axios.get(process.env.NEXT_PUBLIC_GRAPH_URL).then(function (response) {
-      setActitieslist(response.data.data);
-    });
+    const graphUrl = process.env.NEXT_PUBLIC_GRAPH_URL;
+
+    if (!graphUrl) {
+      console.error(
+        "NEXT_PUBLIC_GRAPH_URL is not defined in environment variables"
+      );
+      setError("Configuration error: API URL not found");
+      return;
+    }
+
+    axios
+      .get(graphUrl)
+      .then(function (response) {
+        setActitieslist(response.data.data);
+      })
+      .catch(function (error) {
+        console.error("Error fetching activities:", error);
+        setError("Failed to load activities");
+      });
   }, []);
 
   return (
@@ -25,7 +42,20 @@ export default function ActivitiesCmp() {
           <h2 className="mb-1 ">Our Activities </h2>
         </div>
       </div>
-      {activitieslist !== undefined && activitieslist.length < 1 && (
+      {error && (
+        <div
+          style={{
+            marginTop: "50px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            color: "red"
+          }}
+        >
+          <p>{error}</p>
+        </div>
+      )}
+      {!error && activitieslist !== undefined && activitieslist.length < 1 && (
         <div
           style={{
             marginTop: "50px",

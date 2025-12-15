@@ -11,9 +11,7 @@ export default function Banner() {
         <div className={styles.text}>
           <h2>IEEE RAS </h2>
           <h3>INSAT</h3>
-          <Link href="/about">
-            <a>Explore</a>
-          </Link>
+          <Link href="/about">Explore</Link>
         </div>
       </section>
     </div>
