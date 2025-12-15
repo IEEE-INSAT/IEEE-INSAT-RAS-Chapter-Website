@@ -123,11 +123,13 @@ export default function Contactus() {
                 ></textarea>
               </div>
               <div className="form-group">
-                <input
+                <button
+                  type="button"
                   onClick={handleSubmit}
-                  value="Send Message"
                   className="btn btn-primary py-3 px-5"
-                />
+                >
+                  Send Message
+                </button>
               </div>
             </form>
           </div>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 export default function Navbar() {
   const [Shadow, setShadow] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
   const changeShadow = () => {
     if (window.scrollY > 20 && window !== undefined) {
@@ -39,23 +40,25 @@ export default function Navbar() {
           <button
             className="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#ftco-nav"
+            onClick={() => setIsOpen(!isOpen)}
             aria-controls="ftco-nav"
-            aria-expanded="false"
+            aria-expanded={isOpen}
             aria-label="Toggle navigation"
           >
             <span className="oi oi-menu"></span> Menu
           </button>
-          <div className="collapse navbar-collapse" id="ftco-nav">
+          <div 
+            className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}
+            id="ftco-nav"
+          >
             <ul className="navbar-nav ml-auto">
               <li
                 className={
                   router.pathname == "/" ? "nav-item active" : "nav-item"
                 }
               >
-                <Link href="/">
-                  <a className="nav-link">Home</a>
+                <Link href="/" className="nav-link">
+                  Home
                 </Link>
               </li>
               <li
@@ -63,8 +66,8 @@ export default function Navbar() {
                   router.pathname == "/nrw" ? "nav-item active" : "nav-item"
                 }
               >
-                <Link href="/nrw">
-                  <a className="nav-link">NRW</a>
+                <Link href="/nrw" className="nav-link">
+                  NRW
                 </Link>
               </li>
               <li
@@ -72,8 +75,8 @@ export default function Navbar() {
                   router.pathname == "/about" ? "nav-item active" : "nav-item"
                 }
               >
-                <Link href="/about">
-                  <a className="nav-link">About us</a>
+                <Link href="/about" className="nav-link">
+                  About us
                 </Link>
               </li>
               <li
@@ -81,8 +84,8 @@ export default function Navbar() {
                   router.pathname == "/awards" ? "nav-item active" : "nav-item"
                 }
               >
-                <Link href="/awards">
-                  <a className="nav-link">Awards</a>
+                <Link href="/awards" className="nav-link">
+                  Awards
                 </Link>
               </li>
               <li
@@ -92,8 +95,8 @@ export default function Navbar() {
                     : "nav-item"
                 }
               >
-                <Link href="/activities">
-                  <a className="nav-link">Activities</a>
+                <Link href="/activities" className="nav-link">
+                  Activities
                 </Link>
               </li>
               <li
@@ -103,8 +106,8 @@ export default function Navbar() {
                     : "nav-item"
                 }
               >
-                <Link href="/community">
-                  <a className="nav-link">COMMUNITY</a>
+                <Link href="/community" className="nav-link">
+                  COMMUNITY
                 </Link>
               </li>
               <li
@@ -114,8 +117,8 @@ export default function Navbar() {
                     : "nav-item"
                 }
               >
-                <Link href="/newsletter">
-                  <a className="nav-link">Newsletter</a>
+                <Link href="/newsletter" className="nav-link">
+                  Newsletter
                 </Link>
               </li>
               <li
